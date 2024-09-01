@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <script src="script.js" defer></script>
+
+  <title>Frontend Mentor | Project tracking intro component</title>
+</head>
+
+<body>
+  <div class="page-wrapper">
+    <nav class="page-nav">
+      <img width="auto" height="auto" class="page-nav__logo" src="images/logo.svg" alt="company logo">
+      <ul class="page-nav__list">
+        <li>
+          <a href="#">PRODUCT</a>
+        </li>
+        <li>
+          <a href="#">FEATURES</a>
+        </li>
+        <li>
+          <a href="#">PRICING</a>
+        </li>
+        <li>
+          <a href="#">LOGIN</a>
+        </li>
+      </ul>
+      <button id="toggle-mobile-nav" class="page-nav__close--mobile-nav" aria-label="open mobile navigation">
+        <img src="images/icon-hamburger.svg" alt="image for a button to open a mobile navigation">
+      </button>
+    </nav>
+
+    <!-- Mobile Navigation Menu -->
+    <aside id="mobile-nav" class="mobile-nav_wrapper" aria-label="Mobile Navigation">
+      <nav id="mobile-menu" class="mobile-nav">
+        <ul class="mobile-nav__list">
+          <li>
+            <a href="#">PRODUCT</a>
+          </li>
+          <li>
+            <a href="#">FEATURES</a>
+          </li>
+          <li>
+            <a href="#">PRICING</a>
+          </li>
+          <li>
+            <a href="#">LOGIN</a>
+          </li>
+        </ul>
+      </nav>
+    </aside>
+
+    <main>
+      <div class="dashboard-intro">
+        <p class="dashboard-intro__label">
+          <span>NEW</span>
+          <span>MONOGRAPH DASHBOARD</span>
+        </p>
+        <header class="dashboard-intro__header">
+          <h1>POWERFUL INSIGHTS INTO YOUR TEAM</h1>
+        </header>
+        <p class="dashboard-intro__description">Project planning and time tracking for agile teams</p>
+        <div class="dashboard-intro__cta">
+          <button>SCHEDULE A DEMO</button>
+          <p>TO SEE A PREVIEW</p>
+        </div>
+      </div>
+
+      <div class="dashboard-intro__image">
+        <img src="images/illustration-devices.svg" alt="a laptop and smartphone illustration">
+      </div>
+    </main>
+  </div>
+</body>
+
+</html>
